@@ -2,8 +2,7 @@ import Header from './Header';
 
 const layoutStyle = {
     margin: '20px auto',
-    padding: 20,
-    border: '1px solid #DDD',
+    padding: '0 15px',
     width: 1140,
     maxWidth: '100%',
     boxSizing: 'border-box',
