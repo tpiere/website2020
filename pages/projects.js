@@ -67,7 +67,27 @@ export default function About() {
             </Head>
             <div class="col-md-12">
                 <ol class="projectList" style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                    <li class="row">
+                    <li>
+                        <Project
+                            companyLink={
+                                <a href="https://www.uship.com/" class="companyLink"><img src="images/UShip_logo.png" alt="uShip logo" style={imageStyles} /></a>
+                            }
+                            description={
+                                <Fragment>
+                                    <p>
+                                        <a href="http://www.uShip.com/">uShip</a> is an online marketplace for connecting shippers with carriers.
+                    </p>
+                                    <p>I worked on many features of the website and mobile applications including enterprise features, networks, finding shipments, and pricing. </p>
+                                    <p>
+                                        I primarily worked with React, Node.js and .Net.  As we transitioned much of our infrastructure, I gained experience with AWS and Serverless 
+                                        applications.
+                    </p>
+                                </Fragment>
+                            }
+                        />
+
+                    </li>
+                    <li>
                         <Project
                             companyLink={
                                 <a href="http://www.dell.com/" class="companyLink"><img src="images/dell-logo.jpg" alt="Dell logo" style={imageStyles} /></a>
@@ -87,7 +107,7 @@ export default function About() {
                         />
 
                     </li>
-                    <li class="row">
+                    <li>
                         <Project
                             companyLink={
                                 <a href="https://ghealthcare.anthem.com/cp/web/gcaredashboard/home" class="companyLink">
@@ -121,7 +141,7 @@ export default function About() {
                         />
 
                     </li>
-                    <li class="row">
+                    <li>
 
                         <Project
                             companyLink={
@@ -147,7 +167,7 @@ export default function About() {
                         />
 
                     </li>
-                    <li class="row">
+                    <li>
 
                         <Project
                             companyLink={
@@ -175,7 +195,7 @@ export default function About() {
                         />
 
                     </li>
-                    <li class="row">
+                    <li>
 
                         <Project
                             companyLink={
@@ -217,7 +237,7 @@ export default function About() {
                         />
 
                     </li>
-                    <li class="row">
+                    <li>
 
                         <Project
                             companyLink={
