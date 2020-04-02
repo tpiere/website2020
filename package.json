@@ -1,0 +1,20 @@
+{
+  "name": "website2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Tom Piere",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.9.0"
+  }
+}
