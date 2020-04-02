@@ -53,8 +53,8 @@ export default function Home() {
         }
         a {
           display:block;
-          width: 48%;
-          flex: 0 0 49%;
+          width: 100%;
+          flex: 0 0 100%;
           background-color: ${colors["primary-blue"]};
           border-color: ${colors["primary-blue"]};
           padding: 0.75rem 1.5rem;
@@ -64,6 +64,15 @@ export default function Home() {
           font-size: 1.25rem;
           color: ${colors["$mie-beige"]};
         }
+
+        @media screen and (min-width: 650px) {
+          a {
+            display:block;
+            width: 49%;
+            flex: 0 0 49%;
+          }
+        }
+
       `}</style>
       </div>
     </Layout>
