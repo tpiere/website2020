@@ -19,20 +19,23 @@ export default function Home() {
         </Head>
 
         <a href="assets/TomPiere.docx">
-          <MdFileDownload style={iconStyle}/> Download my resume</a>
+          <MdFileDownload style={iconStyle} /> Download my resume</a>
 
         <a href="mailto:tpiere@gmail.com"
-          >
-          <FiMail style={iconStyle}/> Email me</a>
-        <a>
-          <MdCode style={iconStyle}/> See what I've worked on</a>
+        >
+          <FiMail style={iconStyle} /> Email me</a>
 
-        <Link href="/about">
-        <a >
-          <MdPerson style={iconStyle}/> Learn more about me</a>
+        <Link href="/projects">
+          <a>
+            <MdCode style={iconStyle} /> See what I've worked on</a>
         </Link>
 
-          <style jsx>{`
+        <Link href="/about">
+          <a >
+            <MdPerson style={iconStyle} /> Learn more about me</a>
+        </Link>
+
+        <style jsx>{`
         a {
           text-decoration:none;
         }
