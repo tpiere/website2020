@@ -18,19 +18,19 @@ export default function Home() {
           <title>Tom Piere: web developer - home</title>
         </Head>
 
-        <a href="assets/TomPiere.docx">
+        <a href="Resume-TomPiere.docx">
           <MdFileDownload style={iconStyle} /> Download my resume</a>
 
         <a href="mailto:tpiere@gmail.com"
         >
           <FiMail style={iconStyle} /> Email me</a>
 
-        <Link href="/projects">
+        <Link href="projects">
           <a>
             <MdCode style={iconStyle} /> See what I've worked on</a>
         </Link>
 
-        <Link href="/about">
+        <Link href="about">
           <a >
             <MdPerson style={iconStyle} /> Learn more about me</a>
         </Link>
