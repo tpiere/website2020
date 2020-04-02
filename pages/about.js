@@ -1,6 +1,7 @@
 import Layout from '../components/MyLayout';
 import { colors } from '../styles/colors';
 import { FaThumbsUp } from "react-icons/fa";
+import Head from 'next/head'
 
 export default function About() {
   return (
