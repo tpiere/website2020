@@ -18,7 +18,7 @@ export default function Home() {
           <title>Tom Piere: web developer - home</title>
         </Head>
 
-        <a href="Resume-TomPiere.docx">
+        <a href="Tom_Piere_resume.pdf">
           <MdFileDownload style={iconStyle} /> Download my resume</a>
 
         <a href="mailto:tpiere@gmail.com"
