@@ -24,8 +24,8 @@ export default function About() {
           <title>Tom Piere: web developer - about</title>
         </Head>
         <p class="aboutText">
-          Hello! I'm a friendly web developer living in Seattle, Washington. I've been working as a software developer and front-end engineer
-          for the past 14 years since graduating from college.
+          Hello! I'm a friendly web developer living in Corrales, New Mexico. I've been working as a software developer and front-end engineer
+          for the past 17 years since graduating from college.
     </p>
         <p>
           I enjoy working with user experience and graphic designers to build high quality interfaces on the web.
